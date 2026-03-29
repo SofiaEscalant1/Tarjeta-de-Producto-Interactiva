@@ -1,0 +1,68 @@
+* {
+    margin: 0
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    color: rgba(255, 255, 255, 0.931);
+    width: 180px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: #7ba238;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .img-card {
+    height: 100px;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigqyW7I2-w4Pf0qvVqYSSsO-X4dp9LHqc9pI4CH3YwNyiChW1hkN6ESyPaaHSXsWqXyZcfKr5ZL70oH5xA9pN2p_kPmcIjTrJGoeOw0bSppJK51PUKWdLZuhL60yS9E3EXytgGTW2hb5MoSygVD8o-SArtVBpfZ5RhCgMN47sxnBX_RlHZDBgQVhIvaQ/s16000/ASUS%20Gamer%20ROG%20Strix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px
+}
+
+
+
+.card button {
+    background: #e2a30b;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.total-section {
+    width: 200px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.total-section .color {
+    display: flex;
+}
+
+.total-section .color div{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px;
+}
